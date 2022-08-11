@@ -1,0 +1,73 @@
+img {
+    width: 50px; 
+    height: 50px;
+    padding: 3px 3px;
+
+}
+
+content-section {
+    background-image: -moz-element();
+
+}
+h1 {
+    background-color: blue;
+    padding: 2px;
+    margin: 3px;
+    font-style: italic;
+    text-align: center;
+}
+
+nav {
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.9);
+    display: flex;
+    padding: 5px 5px;
+    justify-content: space-between;
+    margin: 5px;
+    background-color: lightseagreen;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+li:hover {
+    cursor: pointer;
+    color: deeppink;
+
+}
+
+button {
+    outline: invert;
+    border: 2px solid blue;
+    background-color: lightseagreen;
+    width: 20%;
+    padding: 5px 5px;
+    border-radius: 100px;
+    font-size: 14px;
+    
+}
+button:hover {
+    cursor: pointer;
+    color: white;
+} 
+
+p {
+    background-image: -moz-linear-gradient();
+}
+
+.card .image-section {
+    max-width: fit-content;
+    height: fit-content;
+    margin: 5px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    
+}
